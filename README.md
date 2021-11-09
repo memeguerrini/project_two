@@ -28,6 +28,8 @@ We search on kaggle for dasets availables related to comsumer products or touris
  * https://www.kaggle.com/erikbruin/airbnb-amsterdam?select=reviews_details.csv
 
 After a team analysis and Arooj(Tutor) recommendations we decide to work on Airbnb data (tourism), because this fit very well with the requiment.
+
+
 ![](Images/ETL.png)
 
 
