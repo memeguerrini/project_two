@@ -4,7 +4,7 @@ Please visit our project site xxxxxx
 
 # Project Description
 
-The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, calendar availability for each of these listings as well as user reviews on the listings. Using this dataset, We are going to attempt to answer the following business questions.
+The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, calendar availability for each of these listings as well as user reviews on the listings. Using this dataset, In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 2019 to give resources to tourist at the time of decision making. We are going to attempt to answer the following business questions.
 
 ## Pricing Trends
 
@@ -20,6 +20,7 @@ xxxxxxxxxxxxxxxx
 
 # Analysis Steps
 ![](Images/steps.png)
+
 We search on kaggle for dasets availables related to comsumer products or tourism and found the following two opcion: 
 
  * https://www.kaggle.com/aungpyaeap/supermarket-sales
@@ -30,7 +31,7 @@ After a team analysis we decide to work on Airbnb data (tourism), because this f
 ![](Images/ETL.jpg)
 
 ## Extract data
-We used Pandas [.ipynb Jupyter Notebook] to extract the data
+We used Pandas [.ipynb Jupyter Notebook] to extract the data FROM CSV files.
 
 
 ## Transform
@@ -40,11 +41,11 @@ We used Pandas [.ipynb Jupyter Notebook] to extract the data
 ## Load
 We decided to load the data into a mongoDB because It is flexible schema makes it easy to evolve and store data in a way that is easy for programmers to work with. MongoDB is also built to scale up quickly and supports all the main features of modern databases such as transactions. 
 
-# Why Use MongoDB and When to Use It?
+### Why Use MongoDB and When to Use It?
 * https://www.mongodb.com/why-use-mongodb
 
 
-## Source
+## Sources
 
 * https://www.kaggle.com/erikbruin/airbnb-amsterdam?select=reviews_details.csv
 * https://news.airbnb.com/wp-content/uploads/sites/4/2021/05/Airbnb-Report-on-Travel-Living.pdf
