@@ -1,4 +1,4 @@
-![](Images/AmsterdamV.jpeg)
+![](Images/Amsterdam.jpeg)
 
 Please visit our project site xxxxxx
 
@@ -12,38 +12,36 @@ The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, c
 * How does pricing increase or decrease by neighborhood and which ones are the priciest neighborhoods in Amsterdam?
 * How does property types within neighborhoods impact price for the most expensive neighborhoods and most common property types?
 
-* What is the average price by month?
-* What is the average price by neighborhood?
-* What is the Top 10 of neighborhoods?
-* What is the property Type more rent?
-
-
+xxxxxxxxxxxxxxxx
 * Is there a Trend in Location?------
 * What are the average reviews?-----
-* What is the volume of Rent between Seasons?______
+* What is the volume of Rent between Seasons?-----
 
 
 # Analysis Steps
 ![](Images/steps.png)
+We search on kaggle for dasets availables related to comsumer products or tourism and found the following two opcion: 
 
-
-
+ * https://www.kaggle.com/aungpyaeap/supermarket-sales
+ * https://www.kaggle.com/erikbruin/airbnb-amsterdam?select=reviews_details.csv
+After a team analysis we decide to work on Airbnb data (tourism), because this fit very with the requiment.
 
 
 ![](Images/ETL.jpg)
+
 ## Extract data
+We used Pandas [.ipynb Jupyter Notebook] to extract the data
 
 
 ## Transform
+![](Images/Info_graphic.png)
 
 
 ## Load
+We decided to load the data into a mongoDB because It is flexible schema makes it easy to evolve and store data in a way that is easy for programmers to work with. MongoDB is also built to scale up quickly and supports all the main features of modern databases such as transactions. 
 
-
-
-
-
-
+# Why Use MongoDB and When to Use It?
+* https://www.mongodb.com/why-use-mongodb
 
 
 ## Source
