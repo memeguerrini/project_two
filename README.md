@@ -1,6 +1,6 @@
 ![](Images/Amsterdam.jpeg)
 
-Please visit our project site for more details xxxxxx
+* Please visit our project site for more details xxxxxx
 
 # Project Description
 
