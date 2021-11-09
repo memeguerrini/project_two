@@ -34,7 +34,7 @@ We used Pandas [.ipynb Jupyter Notebook] to extract the data FROM CSV files.
 
 
 ## Transform
-![](Images/Info_graphic.png)
+![](Images/Infographic.png)
 
 
 ## Load
