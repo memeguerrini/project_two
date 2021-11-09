@@ -1,7 +1,7 @@
 
 ![](Images/Amsterdam_.jpg)
 
-* Please visit our project site for more details xxxxxx
+* Please visit our project site for more analysis details xxxxxx
 
 # Project Description
 
@@ -11,13 +11,14 @@ The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, c
 
 * How does pricing increase or decrease by season and what is the peak season in Amsterdam?
 * How does pricing increase or decrease by neighborhood and which ones are the priciest neighborhoods in Amsterdam?
-* How does property types within neighborhoods impact price for the most expensive neighborhoods and most common property types?
+* How does property types & Room types within neighborhoods impact price for the most expensive neighborhoods and most common property types?
 
 xxxxxxxxxxxxxxxx
 * Is there a Trend in Location?------
 * What are the average reviews?-----
 * What is the volume of Rent between Seasons?-----
 
+The answer of those question can be useful for people from Amsterdam who wants to start renting their properties on Airbnb, or tourists who are going to visit Amsterdam and want to estimate the cost of accommodation.
 
 # Analysis Steps
 ![](Images/steps.png)
