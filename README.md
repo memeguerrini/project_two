@@ -28,7 +28,7 @@ We search on kaggle for dasets availables related to comsumer products or touris
  * https://www.kaggle.com/erikbruin/airbnb-amsterdam?select=reviews_details.csv
 
 After a team analysis and Arooj(Tutor) recommendations we decide to work on Airbnb data (tourism), because this fit very well with the requiment.
-![](Images/ETL.jpg)
+![](Images/ETL.png)
 ## Extract data
 We used Pandas [.ipynb Jupyter Notebook] to extract the data FROM CSV files.
 
