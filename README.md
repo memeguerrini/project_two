@@ -1,4 +1,4 @@
-![](Images/Amsterdam_.jpg)
+![](Images/Amsterdam_.jpeg)
 
 * Please visit our project site for more details xxxxxx
 
@@ -25,6 +25,7 @@ We search on kaggle for dasets availables related to comsumer products or touris
 
  * https://www.kaggle.com/aungpyaeap/supermarket-sales
  * https://www.kaggle.com/erikbruin/airbnb-amsterdam?select=reviews_details.csv
+
 After a team analysis we decide to work on Airbnb data (tourism), because this fit very with the requiment.
 ![](Images/ETL.jpg)
 ## Extract data
