@@ -1,4 +1,4 @@
-![Amsterdam](Images/Amsterdam.jpeg)
+![Amsterdam](Images/AmsterdamV.jpeg)
 
 Please visit our project site xxxxxx
 
