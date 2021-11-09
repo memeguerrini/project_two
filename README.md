@@ -38,7 +38,7 @@ We used Pandas [.ipynb Jupyter Notebook] to extract the data FROM CSV files.
 
 
 ## Load
-We decided to load the data into a mongoDB because It is flexible schema makes it easy to evolve and store data in a way that is easy for programmers to work with. MongoDB is also built to scale up quickly and supports all the main features of modern databases such as transactions. 
+We decided to load the data into a mongoDB because It is flexible schema makes it easy to evolve and store data in a way that is easy for programmers to work with. MongoDB is also built to scale up quickly and supports all the main features of modern databases. 
 
 ### Why Use MongoDB and When to Use It?
 * https://www.mongodb.com/why-use-mongodb
