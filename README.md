@@ -1,4 +1,5 @@
-![](Images/Amsterdam_.jpeg)
+
+![](Images/Amsterdam_.jpg)
 
 * Please visit our project site for more details xxxxxx
 
