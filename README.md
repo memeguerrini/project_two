@@ -36,7 +36,9 @@ After a team analysis and Arooj(Tutor) recommendations we decide to work on Airb
 
 
 ## Extract data
-We used Pandas [.ipynb Jupyter Notebook] to extract the data from CSV files.
+We used Pandas [.ipynb Jupyter Notebook] to extract the data from CSV and Geojson files.
+
+*https://github.com/memeguerrini/project_two/blob/main/Airbnb_Amsterdam.ipynb
 
 
 ## Transform
