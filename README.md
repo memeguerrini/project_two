@@ -8,7 +8,7 @@ We are in a new era of travel. - Before the COVID-19 pandemic, travel and touris
 
 In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 2019 to give resources at the time of decision making as Amsterdam is the capital and most popular city of the Netherlands.
 
-The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, calendar availability for each of these listings as well as user reviews on the listings. Using this dataset, In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 2019 to give resources to tourist at the time of decision making. We are going to attempt to answer the following business questions.
+The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, calendar availability for each of these listings as well as user reviews on the listings. Using this dataset, In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 2019 to give resources to tourist at the time of decision making. We are going to attempt to answer the following business questions:
 
 * How does pricing increase or decrease by season and what is the peak season in Amsterdam?
 * How does pricing increase or decrease by neighborhood and which ones are the priciest neighborhoods in Amsterdam?
