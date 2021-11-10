@@ -63,3 +63,4 @@ Analysis details site XXXXX
 
 * https://www.kaggle.com/erikbruin/airbnb-amsterdam?select=reviews_details.csv
 * https://news.airbnb.com/wp-content/uploads/sites/4/2021/05/Airbnb-Report-on-Travel-Living.pdf
+* https://bootswatch.com/
