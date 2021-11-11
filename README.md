@@ -59,7 +59,12 @@ We all know the prices are vary between seasons, and we always wanna choose the 
 
 
 ## Conclusions
-
+* Accomodation capacity analysis: 'two people' type listing occupies the largest portion.
+* Center town neighborhood has the most number of listings with the highest price as well.
+* Apartment is the most common property type among all the listings.
+* Entire home/apt has larger portion of all the listings.
+* October is the price peak of all year not Christmas season.
+* No strong correlation between the number of reivews and the review scores. Listings with higher number of reviews normally with higher scores. 
 
 ## Sources
 
