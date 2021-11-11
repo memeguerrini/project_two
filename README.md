@@ -9,6 +9,8 @@ In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 20
 
 The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, calendar availability for each of these listings as well as user reviews on the listings. Using this dataset, In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 2019 to give resources to tourist at the time of decision making. We are going to attempt to answer the following business questions:
 
+* Is there a Trend in Location?
+* What are the average reviews scores?
 * How does pricing increase or decrease by season and what is the peak season in Amsterdam?
 * How does pricing increase or decrease by neighborhood and which ones are the priciest neighborhoods in Amsterdam?
 * How does property types & Room types within neighborhoods impact price for the most expensive neighborhoods and most common property types?
