@@ -54,7 +54,7 @@ Analysis details site XXXXX
 
 
 ## Conclusions
-
+Based on the above analysis, there is definitely price fluctuations based on neighborhoods. The Centrum-West seems like the priciest of all, averaging at $280. Followed by Museumkwartier at $222. Osdorp seems like the cheapest at $111 average price.
 
 ## Sources
 
