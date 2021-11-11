@@ -41,7 +41,7 @@ We used Pandas [.ipynb Jupyter Notebook] to extract the data from CSV and Geojso
 
 
 ## Load
-We decided to load the data into a mongoDB because It is flexible schema makes it easy to evolve and store data in a way that is easy for programmers to work with. MongoDB is also built to scale up quickly and supports all the main features of modern databases. 
+We decided to load the data into a mongoDB because It is flexible schema makes it easy to evolve and store data in a way that is easy for programmers to work with. MongoDB is also built to scale up quickly and supports all the main features of modern databases. We import the calendar csv profile into Mongo DB called airbnb database. Then connect the mongodb with jupyter notebook through the local host link. Details can be referred by the project 2 index html page.
 
 ### Why Use MongoDB and When to Use It?
 * https://www.mongodb.com/why-use-mongodb
