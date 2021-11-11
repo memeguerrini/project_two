@@ -59,8 +59,7 @@
                         <li class="nav-item sr-only"><a class="nav-link scrollto" href="#promo">Home</a></li>
                         <li class="nav-item"><a class="nav-link scrollto" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link scrollto" href="#features">Results</a></li>
-                        <li class="nav-item"><a class="nav-link scrollto" href="#docs">Jupyter</a></li>
-                        <li class="nav-item"><a class="nav-link scrollto" href="#license">Re</a></li>                        
+                        <li class="nav-item"><a class="nav-link scrollto" href="#docs">Jupyter</a></li>                                      
                         <li class="nav-item last"><a class="nav-link scrollto" href="#contact">Team</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
@@ -97,7 +96,8 @@
                 International arrivals sank to their lowest level in more than 30 years; as pandemic restrictions gradually lift and travel restarts. 
                 We are shifting from travelling at all the same times to all the same old places to many of us living anywhere, at any time, for however long. This is not a temporary reaction to these many months of restrictions and isolation, it’s a step toward a world in which living and travelling are one and the same and is the top activity people say they will do first once they feel safe. 
                 But, where do people want to travel again? 
-                <p>In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 2019 to give resources at the time of decision making as Amsterdam is the capital and most popular city of the Netherlands.
+                <p>The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, calendar availability for each of these listings as well as user reviews on the listings. Using this dataset, In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 2019 to give resources to tourist at the time of decision making. We are going to attempt to answer the following business questions:
+                <p>The answer of those question can be useful for people from Amsterdam who wants to start renting their properties on Airbnb, or tourists who are going to visit Amsterdam and want to estimate the cost of accommodation.
                 </p>
             <div class="row">
                 <div class="item col-lg-4 col-md-6 col-12">
@@ -105,8 +105,7 @@
                         <i class="fas fa-heart"></i>
                     </div>
                     <div class="content">
-                        <h3 class="sub-title">Designed for developers</h3>
-                        <p>How does pricing increase or decrease by neighborhood and which ones are the priciest neighborhoods in Amsterdam? </p>
+                        <h3 class="sub-title">How does pricing increase or decrease by neighborhood and which ones are the priciest neighborhoods in Amsterdam?</h3>                        
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item col-lg-4 col-md-6 col-12">
@@ -114,8 +113,7 @@
                         <i class="far fa-clock"></i>
                     </div>
                     <div class="content">
-                        <h3 class="sub-title">Time saver</h3>
-                        <p>How does property types & Room types within neighborhoods impact price for the most expensive neighborhoods and most common property types? - The room type is very important in Amsterdam, because Amsterdam has a rule that Entire homes/apartments can only be rented out via Airbnb for a maximum of 60 days a year. Below, we can see that this restriction applies to most of the listings. </p>
+                        <h3 class="sub-title">How does property types & Room types within neighborhoods impact price for the most expensive neighborhoods and most common property types?</h3>                         
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item col-lg-4 col-md-6 col-12">
@@ -123,8 +121,7 @@
                         <i class="fas fa-crosshairs"></i>
                     </div>
                     <div class="content">
-                        <h3 class="sub-title">Reviews scores vs. Number of reviews </h3>
-                        <p>Is there a correlation between the two factors? </p>
+                        <h3 class="sub-title">Reviews scores vs. Number of reviews - What are the average reviews scores? - Is there a correlation between the two factors? </h3>
                     </div><!--//content-->
                 </div><!--//item-->           
                 <div class="clearfix visible-md"></div>    
@@ -133,8 +130,7 @@
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <div class="content">
-                        <h3 class="sub-title">Price changes between the seasons </h3>
-                        <p>Describe the trend how the average price changes from month to month  <</p>
+                        <h3 class="sub-title">How does property types & Room types within neighborhoods impact price for the most expensive neighborhoods and most common property types?</h3>                        
                     </div><!--//content-->
                 </div><!--//item-->                
                 <div class="item col-lg-4 col-md-6 col-12">
@@ -142,9 +138,11 @@
                         <i class="fas fa-code"></i>
                     </div>
                     <div class="content">
-                        <h3 class="sub-title">Listing hit map</h3>
-                        <p>What would be the location distributions of the listing in Amsterdam? 
+                        <h3 class="sub-title">Is there a Trend in Location? - What would be the location distributions of the listing in Amsterdam?</h3>                       
                     </div><!--//content-->
+                    
+             
+                    </p>
                 
                     
                 </div><!--//item-->               
@@ -155,17 +153,28 @@
     <!-- ******FEATURES****** --> 
     
     <section id="features" class="features section">
-        <div class="container text-center">
+        <div class="container text-left">
             <h2 class="title">Findings</h2>
+            <p><li>According to the listings being apartment in the first place.</li></p>
+            <p><li>According to the number of listings the most preferred accommodation is for 2 and 4 people..</li></p>
+            <p><li>Based on the above analysis, there is definitely price fluctuations based on neighborhoods. The Centrum-West seems like the priciest of all, averaging at $280. Followed by Museumkwartier at $222. Osdorp seems like the cheapest at $111 average price.</li></p>
+            <p><li>The map analysis shows us the listings distributed by zones, with which we can determine that the center of the city is where the highest concentration of available properties is located.</li></p>
+            <p><li>The averages of reviews for listings, distributed by location, Cleanliness, values, communication, arrival and accuracy. Which allows us to analyze some preferences.</li></p>
+            <p><li>Reviews number vs. reviews score analysis correlation analysis: When we try to search for the choices of Airbnb, review score would be one of the considerations. We are thinking does the listing that has high review score means they are more popular in the market(which means a greater number of reviews)? A scatter plot was created between the review numbers and the review scores for each listing. In the Amsterdam Airbnb market, there was no strong correlation between the high scores and popularity. Some listings have high scores while their number of reviews are low. But the listing has low scores normally has fewer number of reviews. That is to say for the popular listings, the scores are normally exceed 80. So these two criteria combined can help people to search for the satisfied listing on the market.
+                Price changes between seasons: We all know the prices are vary between seasons, and we always want to choose the best price. So we take a look and analyze the price change between the seasons. To our surprise, the Christmas season ( December to January) was not a price peak from the analysis. Fall season, October has the highest average price with 165 and followed by August at 157. February has the lowest price at 119 $. Prices range for the year is around 50 dollars per night. So that we can know Amsterdam probably has more travellers during the summer and autumn seasons.
+            </li></p> 
+            <img class="img-fluid" src="assets/images/ReviewsInfo_Fig.08.png" alt="" /> 
+            <img class="img-fluid" src="assets/images/map.png" alt="" />
             <img class="img-fluid" src="assets/images/Acomodation_Fig.04.png" alt="" />
             <img class="img-fluid" src="assets/images/Av_price_Fig.01.png" alt="" />
             <img class="img-fluid" src="assets/images/Best_Neighb_Fig.05.png" alt="" />
             <img class="img-fluid" src="assets/images/Bottom_Neighb_Fig.06.png" alt="" />
             <img class="img-fluid" src="assets/images/TypesRoom_Fig.07.png" alt="" />
-            <img class="img-fluid" src="assets/images/image (1).png" alt="" />
-            <img class="img-fluid" src="assets/images/ReviewsInfo_Fig.08.png" alt="" />
+            <img class="img-fluid" src="assets/images/Av_priceNbh_Fig.o1.png" alt="" />            
             <img class="img-fluid" src="assets/images/reviews Analysis.png" alt="" />
             <img class="img-fluid" src="assets/images/pricechanges.png" alt="" />
+            <img class="img-fluid" src="assets/images/Av_priceMth_Fig.01.png" alt="" />           
+            <img class="img-fluid" src="assets/images/Av_propertyT_Fig.03.png" alt="" />            
             <ul class="feature-list list-unstyled">
             </ul>
         </div><!--//container-->
@@ -234,17 +243,46 @@
                     <a class="btn btn-cta-primary" href="https://github.com/memeguerrini/project_two" target="_blank">More on GitHub</a>
                 </p>
             </div><!--//block-->
+
             
             </div><!--//docs-inner-->         
         </div><!--//container-->
     </section><!--//features-->
     
-    <!-- ******LICENSE****** --> 
-    
-     
+    <!-- ******CONTACT****** --> 
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="title  text-center">Thank you for your time today!</h2>
+                <p class="intro  text-center">We hope you found this presentation enjoyful.</p>
+                <div class="author-message">                      
+                    <div class="profile-float-left">
+                        <img class="img" src="assets/images/profile.png" alt="" />
+                    </div><!--//profile-->
+                    <div class="speech-bubble">
+                        <h2 class="title  text-center">Emily - Meme & Lili</h2>                      
+                        <div class="source">                    
+                        </div><!--//source-->
+                    </div><!--//speech-bubble-->                        
+                </div><!--//author-message-->
+                <div class="clearfix"></div>
+                <div class="info text-center">
+                    <h4 class="sub-title">Get Connected</h4>
+                    <ul class="social-icons list-inline">                       
+                        <li class="list-inline-item"><a href="https://github.com/memeguerrini/project_two/tree/main" target="_blank"><i class="fab fa-dribbble"></i></a></li>                           
+                    </ul>
+                </div><!--//info-->
+            </div><!--//contact-inner-->
+        </div><!--//container-->
+    </section><!--//contact-->  
       
     <!-- ******FOOTER****** --> 
-
+    <footer class="footer">
+        <div class="container text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with Bootstrap 4<i class="fas fa-heart"></i> 2021 </small>
+        </div><!--//container-->
+    </footer><!--//footer-->
      
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>   
