@@ -58,7 +58,11 @@ We all know the prices are vary between seasons, and we always wanna choose the 
 
 
 ## Conclusions
-
+* Two people type has largest portion of the accommodations.
+* Centertown of Amsterdam has the largest number of listings and the highest price.
+* Apartment type is the most popular listing on the market.
+* October is the price peak of the year instead of the Christmas season!
+* No strong correlation between the number of reviews and the review scores. But more reivews can indicate that the listings are having higher scores.
 
 ## Sources
 
