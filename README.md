@@ -10,9 +10,11 @@ In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 20
 
 The Amsterdam AirBnB Dataset contains data about AirBnB listings in Amsterdam, calendar availability for each of these listings as well as user reviews on the listings. Using this dataset, In the following analysis, we explore Amsterdam’s Airbnb Market in 2018 – 2019 to give resources to tourist at the time of decision making. We are going to attempt to answer the following business questions:
 
-* How does pricing increase or decrease by season and what is the peak season in Amsterdam?
+
 * How does pricing increase or decrease by neighborhood and which ones are the priciest neighborhoods in Amsterdam?
 * How does property types & Room types within neighborhoods impact price for the most expensive neighborhoods and most common property types?
+* Is there a Trend in Location?
+* What are the average reviews scores?
 
 The answer of those question can be useful for people from Amsterdam who wants to start renting their properties on Airbnb, or tourists who are going to visit Amsterdam and want to estimate the cost of accommodation.
 
@@ -45,26 +47,14 @@ We decided to load the data into a mongoDB because It is flexible schema makes i
 
 ### Why Use MongoDB and When to Use It?
 * https://www.mongodb.com/why-use-mongodb
-We tried the SQL first since our data is in consistent format and can be connected by the primary keys. But the calendar file can not be imported since it cannot assign a desired ID as the primary key, multiple listings are matched as one listing id, so we change the SQL to mongodb since there is no primary key required and more compatible with multiple forms of the data. 
+
 
 ## Findings
-Reviews number vs. reviews score analysis correlation analysis: 
-When we try to search for the choices of airbnb, review score would be one of the considerations. We are thinking does the listing that has high review score means they are more popluar in the market(which means more number of reviews)? 
-A scatter plot was created between the review numbers and the review scores for each listing. In the Amsterdam airbnb market, there was no strong correlation between the high scores and popularity. Some listings has high scores while their number of reviews are low.
-But the listing has low scores normally has fewer number of reviews. That is to say for the popular listings, the scores are normally exceed 80. So these two criteria combined can help people to search for the satisfied listing on the market.
-
-Price changes between seasons:
-We all know the prices are vary between seasons, and we always wanna choose the best price. So we take a look and analyze the price change between the seasons. To our surprise, the Christmas season ( Decemebr to January) was not a price peak from the analysis. Fall season, October has the highest average price with 165 and followed by August at 157. February has the lowest price at 119 $. Prices range for the year is around 50 dollars per night. So that we can know Amsterdam probably has more travellers during the summer and autumn seasons.
-
+Analysis details site XXXXX
 
 
 ## Conclusions
-* Accomodation capacity analysis: 'two people' type listing occupies the largest portion.
-* Center town neighborhood has the most number of listings with the highest price as well.
-* Apartment is the most common property type among all the listings.
-* Entire home/apt has larger portion of all the listings.
-* October is the price peak of all year not Christmas season.
-* No strong correlation between the number of reivews and the review scores. Listings with higher number of reviews normally with higher scores. 
+
 
 ## Sources
 
